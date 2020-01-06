@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01FD6F2523C3BD1B00A9F6BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD6F2123C3BD1B00A9F6BC /* SceneDelegate.swift */; };
+		01FD6F3423C3C26F00A9F6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FD6F3223C3C20100A9F6BC /* Main.storyboard */; };
+		01FD6F3823C3C2EA00A9F6BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD6F3723C3C2EA00A9F6BC /* ViewController.swift */; };
+		01FD6F3A23C3C30600A9F6BC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD6F3923C3C30600A9F6BC /* User.swift */; };
 		7CA18E3F233B9C5900418E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA18E3E233B9C5900418E08 /* AppDelegate.swift */; };
-		7CA18E41233B9C5900418E08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA18E40233B9C5900418E08 /* ViewController.swift */; };
-		7CA18E44233B9C5900418E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA18E42233B9C5900418E08 /* Main.storyboard */; };
 		7CA18E46233B9C5A00418E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA18E45233B9C5A00418E08 /* Assets.xcassets */; };
 		7CA18E49233B9C5A00418E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA18E47233B9C5A00418E08 /* LaunchScreen.storyboard */; };
-		7CA18E51233BA60100418E08 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA18E50233BA60100418E08 /* ViewController2.swift */; };
-		7CA18E54233BA9F400418E08 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA18E53233BA9F400418E08 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01FD6F2123C3BD1B00A9F6BC /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01FD6F3123C3C20000A9F6BC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01FD6F3223C3C20100A9F6BC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		01FD6F3723C3C2EA00A9F6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01FD6F3923C3C30600A9F6BC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7CA18E3B233B9C5900418E08 /* Lesson2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA18E3E233B9C5900418E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CA18E40233B9C5900418E08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7CA18E43233B9C5900418E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CA18E45233B9C5A00418E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CA18E48233B9C5A00418E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CA18E4A233B9C5A00418E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CA18E50233BA60100418E08 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		7CA18E53233BA9F400418E08 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +40,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01FD6F3323C3C20F00A9F6BC /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				01FD6F3123C3C20000A9F6BC /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		01FD6F3B23C3C31800A9F6BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01FD6F3923C3C30600A9F6BC /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01FD6F3C23C3C3BD00A9F6BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01FD6F3723C3C2EA00A9F6BC /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7CA18E32233B9C5900418E08 = {
 			isa = PBXGroup;
 			children = (
@@ -58,24 +83,17 @@
 		7CA18E3D233B9C5900418E08 /* Lesson2 */ = {
 			isa = PBXGroup;
 			children = (
+				01FD6F3223C3C20100A9F6BC /* Main.storyboard */,
+				01FD6F3323C3C20F00A9F6BC /* Base.lproj */,
+				01FD6F2123C3BD1B00A9F6BC /* SceneDelegate.swift */,
 				7CA18E3E233B9C5900418E08 /* AppDelegate.swift */,
-				7CA18E52233BA65700418E08 /* ViewControllers */,
-				7CA18E42233B9C5900418E08 /* Main.storyboard */,
 				7CA18E45233B9C5A00418E08 /* Assets.xcassets */,
 				7CA18E47233B9C5A00418E08 /* LaunchScreen.storyboard */,
 				7CA18E4A233B9C5A00418E08 /* Info.plist */,
+				01FD6F3C23C3C3BD00A9F6BC /* Views */,
+				01FD6F3B23C3C31800A9F6BC /* Models */,
 			);
 			path = Lesson2;
-			sourceTree = "<group>";
-		};
-		7CA18E52233BA65700418E08 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				7CA18E40233B9C5900418E08 /* ViewController.swift */,
-				7CA18E50233BA60100418E08 /* ViewController2.swift */,
-				7CA18E53233BA9F400418E08 /* ViewController3.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FD6F3423C3C26F00A9F6BC /* Main.storyboard in Resources */,
 				7CA18E49233B9C5A00418E08 /* LaunchScreen.storyboard in Resources */,
 				7CA18E46233B9C5A00418E08 /* Assets.xcassets in Resources */,
-				7CA18E44233B9C5900418E08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,24 +167,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA18E41233B9C5900418E08 /* ViewController.swift in Sources */,
+				01FD6F3A23C3C30600A9F6BC /* User.swift in Sources */,
+				01FD6F3823C3C2EA00A9F6BC /* ViewController.swift in Sources */,
 				7CA18E3F233B9C5900418E08 /* AppDelegate.swift in Sources */,
-				7CA18E54233BA9F400418E08 /* ViewController3.swift in Sources */,
-				7CA18E51233BA60100418E08 /* ViewController2.swift in Sources */,
+				01FD6F2523C3BD1B00A9F6BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7CA18E42233B9C5900418E08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CA18E43233B9C5900418E08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7CA18E47233B9C5A00418E08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Lesson2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,7 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Lesson2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
