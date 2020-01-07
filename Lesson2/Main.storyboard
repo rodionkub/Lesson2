@@ -398,9 +398,9 @@
                     <navigationItem key="navigationItem" title="Родион" id="8iL-NX-asV"/>
                     <connections>
                         <outlet property="ageLabel" destination="wj9-Cu-mqf" id="Idy-Fa-hua"/>
-                        <outlet property="avatar" destination="Hhf-BQ-pfB" id="mgT-7d-JbA"/>
+                        <outlet property="avatarImage" destination="Hhf-BQ-pfB" id="0po-DW-m6q"/>
                         <outlet property="birthLabel" destination="m6T-OL-zc6" id="jUD-5N-byt"/>
-                        <outlet property="giftsLabel" destination="fGg-iD-dy7" id="dVH-fE-WmJ"/>
+                        <outlet property="giftsImage" destination="fGg-iD-dy7" id="g79-Au-94Z"/>
                         <outlet property="instagramLabel" destination="CAa-ID-4qJ" id="hwv-SV-TAT"/>
                         <outlet property="jobLabel" destination="M5n-qP-k1O" id="lpe-fi-AUz"/>
                         <outlet property="nameLabel" destination="k4m-Kz-vTy" id="E9R-4t-XWC"/>

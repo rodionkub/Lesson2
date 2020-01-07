@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UITableViewController {
 
-    @IBOutlet weak var avatar: UIImageView!
+    @IBOutlet weak var avatarImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var onlineLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
@@ -21,7 +21,7 @@ class ViewController: UITableViewController {
     @IBOutlet weak var vkLabel: UILabel!
     @IBOutlet weak var schoolLabel: UILabel!
     @IBOutlet weak var universityLabel: UILabel!
-    @IBOutlet weak var giftsLabel: UIImageView!
+    @IBOutlet weak var giftsImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +33,7 @@ class ViewController: UITableViewController {
         var user = User()
         user = user.getRandomUser()
         
+        avatarImage.image = UIImage(named: user.avatar)
         nameLabel.text = user.name
         onlineLabel.text = user.online
         ageLabel.text = user.year
@@ -43,6 +44,7 @@ class ViewController: UITableViewController {
         vkLabel.text = user.vk
         schoolLabel.text = user.school
         universityLabel.text = user.university
+        giftsImage.image = UIImage(named: user.gifts)
     }
 
 

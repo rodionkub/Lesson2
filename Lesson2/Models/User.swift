@@ -22,11 +22,18 @@ struct User {
     var company: String
     var school: String
     var university: String
+    var gifts: String
     
     static let avatars = [
         "avatar",
         "avatar2",
         "avatar3"
+    ]
+    
+    static let gifts = [
+        "gifts",
+        "gifts2",
+        "gifts3"
     ]
     
     static let years = [
@@ -101,6 +108,7 @@ struct User {
         self.company = ""
         self.school = ""
         self.university = ""
+        self.gifts = ""
     }
     
     init(
@@ -114,7 +122,8 @@ struct User {
         vk: String,
         company: String,
         school: String,
-        university: String
+        university: String,
+        gifts: String
     ) {
         self.avatar = avatar
         self.year = year
@@ -127,6 +136,7 @@ struct User {
         self.company = company
         self.school = school
         self.university = university
+        self.gifts = gifts
     }
     
     func getRandomUser() -> User {
@@ -141,11 +151,12 @@ struct User {
         let vk = User.vks.randomElement(),
         let company = User.companies.randomElement(),
         let school = User.schools.randomElement(),
-        let university = User.universities.randomElement()
+        let university = User.universities.randomElement(),
+        let gifts = User.gifts.randomElement()
         else {
             return User()
     }
     
-    return User(avatar: avatar, year: year, online: online, name: name, status: status, dateOfBirth: dateOfBirth, instagram: instagram, vk: vk, company: company, school: school, university: university)
+        return User(avatar: avatar, year: year, online: online, name: name, status: status, dateOfBirth: dateOfBirth, instagram: instagram, vk: vk, company: company, school: school, university: university, gifts: gifts)
     }
 }
